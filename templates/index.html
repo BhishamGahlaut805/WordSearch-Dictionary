@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/assets/CSS/style.css"> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For Font Awesome Icons -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand navbar-brand-custom" href="#">Dictionary:WordSearch</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link nav-link-custom" href="http://localhost:3000/main">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#">Dictionary Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="http://localhost:3000/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dateandtime" id="dateandtime"></div>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Side Nav -->
+
+    <div class="container">
+        <div class="search-bar position-relative">
+            <input type="text" class="form-control word" placeholder="Search...">
+            <div class="mic-icon">
+                <img class="mic_img" src="/assets/CSS/images_icons/mic.svg" alt="Image" srcset="">
+                <i class="fas fa-microphone"></i>
+            </div>
+            <div class="search-btn">
+                <button type="button" class="btn btn-success">
+                    <img class="search_img" src="/assets/CSS/images_icons/search.svg" alt="" srcset="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="s_box">
+        <ul class="list-group suggestions" id="suggestions-list"></ul>
+    </div>
+    </div>
+
+
+    <!-- //Loader -->
+    <div class="loader d-flex justify-content-center align-items-center">Loading... <div
+            class="spinner-border custom-spinner" role="status"> <span class="sr-only">Loading...</span> </div>
+    </div>
+
+    <!-- Main Text -->
+    <div class="container container_main mt-5 mb-5">
+        <div class="responsive-div p-4 bg-light main_text">
+            <h2 class="font">Welcome to The Dictionary</h2>
+            <p class="font1">Enter any word to Search</p>
+        </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="container container_main mt-5 mb-5 font">
+        <div class="responsive-div p-4 bg-light">
+            <h2>Today's Inspiration</h2>
+            <i>
+                <p class="quote"></p>
+            </i>
+        </div>
+    </div>
+
+    <!-- NEW Word Inf -->
+    <div class="container container_main mt-5 mb-5">
+        <div class="responsive-div p-4 bg-light">
+            <h2 class="font today">Today's word</h2>
+            <p id="word-info"></p>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer-custom text-center text-white">
+        <div class="container p-4">
+            <!-- Social Media Icons -->
+            <section class="mb-4 social-icons">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </section>
+
+            <!-- Footer Links -->
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="http://localhost:3000/main" class="text-white">Home</a></li>
+                            <li><a href="#!" class="text-white">About</a></li>
+                            <li><a href="#!" class="text-white">Services</a></li>
+                            <li><a href="http://localhost:3000/contact" class="text-white">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Dictionary: <a class="text-white" href="https://yourwebsite.com/"><a href="#">WordSearch.com</a></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <script src="/assets/CSS/Javascript/script.js"></script> -->
+
+</body>
+
+</html>
+
+
+
+
+

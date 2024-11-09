@@ -1,0 +1,102 @@
+.navbar-custom {
+    background: linear-gradient(135deg, #8BC34A, #FFD700, #FF8C00);
+    padding: 15px 20px;
+}
+
+.navbar-brand-custom {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link-custom {
+    font-size: 1.2em;
+    color: black;
+    transition: color 0.3s;
+}
+
+.nav-link-custom:hover {
+    color: #234f1e;
+}
+
+ .footer-custom {
+     position: absolute;
+     left: 0;
+     right: 0;
+     background-color: #000;
+     /* Black background */
+     color: #fff;
+     padding: 20px 0;
+ }
+
+ .footer-custom a {
+     color: #ffc107;
+     /* Yellow for links */
+     transition: color 0.3s;
+ }
+
+ .footer-custom a:hover {
+     color: #f1c40f;
+     /* Slightly lighter yellow on hover */
+ }
+
+ .footer-custom .social-icons i {
+     font-size: 1.5em;
+     margin-right: 10px;
+     transition: color 0.3s;
+ }
+
+ .footer-custom .social-icons i:hover {
+     color: #ffc107;
+ }
+
+ .dateandtime {
+     position: absolute;
+     margin-left: -175px;
+     margin-top: -15px;
+     text-align: right;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     box-shadow: grey;
+ }
+
+ .flex-row {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .pos {
+     position: relative;
+ }
+
+ .quote {
+     flex: 1;
+     text-align: center;
+     font-size: 1.3em;
+     padding-right: 15px;
+     padding-top: 10px;
+     color: black;
+ }
+
+ .font {
+     font-family: 'Lobster', cursive;
+     color: rgb(1, 1, 93);
+ }
+
+ .font1 {
+     font-family: 'Lobster', cursive;
+ }
+
+ h3,
+ h4 {
+     color: rgb(1, 1, 139);
+ }
+
+ .size {
+     scale: 2;
+ }
+
+ .filter {
+     filter: invert(1);
+ }
+ 
