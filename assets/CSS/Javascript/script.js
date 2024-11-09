@@ -22,9 +22,9 @@ async function getWordDefinition(wordInput) {
             `<h4> Continue Learning</h4>`;
         return;
     }
-    const KEY1 = "badf222b-e237-4b73-94ae-160dc8848ed9";
+    const KEY1 = "KEY1";
     const URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${wordInput.value}?key=${KEY1}`;
-    const KEY2 = "c55d4532-924b-40b5-a51e-908fa7a09159";
+    const KEY2 = "KEY2";
     const URL1 = `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${wordInput.value}?key=${KEY2}`;
     const URL3 = `https://api.dictionaryapi.dev/api/v2/entries/en/${wordInput.value}`;
 
@@ -533,9 +533,9 @@ async function getWordDefinition_new(wordInput) {
         console.log("Error Going");
         return "";
     }
-    const KEY1 = "badf222b-e237-4b73-94ae-160dc8848ed9";
+    const KEY1 = "KEY1";
     const URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${wordInput}?key=${KEY1}`;
-    const KEY2 = "c55d4532-924b-40b5-a51e-908fa7a09159";
+    const KEY2 = "KEY2";
     const URL1 = `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${wordInput}?key=${KEY2}`;
     const URL3 = `https://api.dictionaryapi.dev/api/v2/entries/en/${wordInput}`;
 
